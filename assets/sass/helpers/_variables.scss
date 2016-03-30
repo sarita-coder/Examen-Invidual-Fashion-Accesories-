@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,600);
+*{
+	font-family: 'Raleway';
+	font-size: 1rem;
+	color: #7b7b7b;
+}
+section{
+	padding: 50px 0;
+}
+$color-gray:#7b7b7b;
+$color-rosa:#e48080;
+.active{
+	background: $color-rosa;
+}

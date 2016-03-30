@@ -1,0 +1,95 @@
+mixin medias-oferta(imagen,texto,numero)
+	.media
+		.media-left
+			a(href="")
+				img.media-object(src=imagen)
+		.media-body
+			h5.media-heading=texto
+			p 1 x $
+				span=numero 
+				span.fa.fa-times
+mixin  thumbanil-main2(imagen,transparent)
+	.col-sm-3
+		.thumbnail
+			img(src=imagen)
+			.caption.text-center
+				h6 Deliver Wide
+				p
+					span.fa.fa-star
+					span.fa.fa-star
+					span.fa.fa-star
+					span.fa.fa-star-o
+					span.fa.fa-star-o
+				if transparent==0
+					p $218.00
+				else 
+					p $242.00
+						span $218.00
+mixin hero-col-2(i1,i2,i3,i4,i5,i6)
+	.col-sm-2
+		img(src=i1 width="100%")
+	.col-sm-2
+		img(src=i2 width="100%")
+	.col-sm-2
+		img(src=i3 width="100%")
+	.col-sm-2
+		img(src=i4 width="100%")
+	.col-sm-2
+		img(src=i5 width="100%")
+	.col-sm-2
+		img(src=i6 width="100%")
+mixin space-main(texto, texto2,texto3)
+	.col-sm-12.text-center
+		a(href="")
+			span.fa.fa-chevron-left
+			span=texto
+			span=texto2
+			span=texto3
+			span.fa.fa-chevron-right
+mixin media-main-3(imagen,a)
+	.col-sm-4
+		.media
+			.media-left
+				a
+					img.media-object(src=imagen)
+			.media-body
+				h4.media-heading Deliver Wide
+				
+					p
+						if a==0
+							span $
+							span 242.00
+						else
+						span $
+						span 21
+						span 8
+						span .00
+					p
+						span.fa.fa-star
+						span.fa.fa-star
+						span.fa.fa-star
+						span.fa.fa-star-o
+						span.fa.fa-star-o
+					a 
+						span.fa.fa-shopping-cart Add to Cart
+mixin main-6(imagen)
+	.col-sm-3
+		img.img-responsive(src=imagen)
+		.caption
+			h5 THE SAMPLE HEADING TITLE
+			P 27/11/2015
+			P  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do...
+			a(href="") Read more
+
+
+
+
+
+
+
+
+
+
+
+
+

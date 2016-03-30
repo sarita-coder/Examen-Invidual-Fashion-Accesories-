@@ -1,0 +1,50 @@
+.hero{
+	background-image: url('../images/slider1.jpg');
+	position: relative;
+	height: 100hv;
+	.text-hero {
+		background: white;
+		width: 30%;
+		float: right;
+		right: 0;
+		padding:10px;
+		.media-heading{
+			font-weight: 600;
+			font-size: 16px;
+		}
+		
+	}
+}
+.t-hero-price{
+
+	.row{
+		.col-sm-6{
+			p{
+				color: $color-rosa;
+			}
+		}
+	}
+}
+.hero-image-2{
+	background-image: url('../images/client-bg.jpg');
+}
+.dos{
+	.col-sm-4{
+		padding-bottom: 20px;
+		.media{
+			.media-left{
+				a{
+					img{
+						width: 150px;
+					}
+				}
+			}
+			.media-body{
+				a{
+					background: gray;
+					color: white;
+				}
+			}
+		}
+	}
+}

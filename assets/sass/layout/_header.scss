@@ -1,0 +1,49 @@
+.navbar-header{
+	.navbar-brand{
+		font-size: 12px;
+	}
+}
+.dropdown-toggle{
+	img, .fa-user , .fa-usd{
+		margin-right: 5px;
+	}
+	.fa-chevron-down{
+		margin-left: 5px;
+		font-size: 10px;
+	}
+}
+.logos{
+	margin-top: 50px;
+	.fa-clock-o{
+		height: 50px;
+		width: 50px;
+		display: block;
+		font-size: 50px;
+	}
+	.formu{
+		input{
+			width: 70%;
+			height: 40px;
+			padding: 10px;
+			border: 1px solid #f1f1f1; 
+		}
+	}
+
+}
+.navbar{
+	margin-bottom: 0!important;
+}
+.enlace-direction{
+
+	.navbar{
+		li{
+			a{
+				h4{
+				color:black;
+				font-weight: 600;
+				}	
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,43 @@
+include ./mixin/mixin.jade
+include ./encabezado/head.jade
+section.hero-contact
+	.container
+		.row
+			.col-sm-7
+				h1 CONTACT US
+			.col-sm-5
+				p Contact info
+				p Phone:0(1234 567890)
+				p Mail:infor@roadthemes.com
+				p Address:No 40 Barja Sreet 133/2 	New York City, NY, United Staes
+main.main-2-contact
+	.container
+		.row
+			.col-sm-6
+				.row
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386809.9479044553!2d-74.31175329338357!3d40.76306465668845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva+York%2C+EE.+UU.!5e0!3m2!1ses-419!2spe!4v1459366824953" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			.col-sm-6
+				.row
+					.col-sm-6
+						input.form-group(type="text", class="form-control", id="exampleInputPassword1", placeholder="First name")
+					.col-sm-6
+						input.form-group(type="text", class="form-control", id="exampleInputPassword1", placeholder="Last name")
+					.col-sm-6
+						input.form-group(type="text", class="form-control", id="exampleInputPassword1", placeholder="Email")
+					.col-sm-6
+						input.form-group(type="text", class="form-control", id="exampleInputPassword1", placeholder="Website")
+				input.form-group(type="text", class="form-control", id="exampleInputPassword1", placeholder="Subject")
+				textarea.form-group(rows="15") Menssage
+				a.btn.btn-send.more(url="") SEND 
+				
+
+
+
+
+
+include ./footer/footer.jade
+
+
+		script(src='assets/js/jquery.js')
+		script(src='assets/js/bootstrap.min.js')
